@@ -13,6 +13,7 @@ def setUserVars(anAlias, anEnemy, aGreeting):
     alias = anAlias
     enemy = anEnemy
     greeting = aGreeting
+    print(greeting,alias, "fuck up", enemy)
 
 def greetUser():
     return "Greetings {}. {}. Good luck defeating {}!".format(alias, greeting, enemy)
@@ -24,4 +25,4 @@ if user == "Bruce Wayne":
 elif user == "Katniss Everdeen":
     setUserVars("Mockingjay", "President Snow", "May the odds be ever in your favour")
 else:
-setUserVars("Programmer", "The Compiler", "You are the 5%")
+    setUserVars("Programmer", "The Compiler", "You are the 5%")
